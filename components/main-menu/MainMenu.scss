@@ -1,0 +1,14 @@
+.app {
+  &-content {
+    background-color: #98faff;
+    width: 100%;
+    height: 100%;
+  }
+  &-sidebar {
+    width: 15rem;
+
+    background-color: #ffffff;
+    position: relative;
+    z-index: 10;
+  }
+}

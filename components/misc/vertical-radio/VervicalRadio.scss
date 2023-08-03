@@ -1,0 +1,15 @@
+.vertical-radio {
+  z-index: 5;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  top: 50%; // This puts the top edge of the element halfway down the container...
+  left: 0; // This aligns the left edge of the element with the left edge of the container.
+  transform: translateY(-50%); //
+  margin-left: 2rem;
+}
+
+.progress-icon__opaque {
+  background-color: transparent !important;
+}

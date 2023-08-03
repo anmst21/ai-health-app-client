@@ -1,0 +1,23 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/app/[slug]/basket": "pages/app/[slug]/basket.html",
+  "/_error": "pages/_error.js",
+  "/app/[slug]/directions": "pages/app/[slug]/directions.html",
+  "/app/[slug]": "pages/app/[slug].html",
+  "/app/create": "pages/app/create.html",
+  "/app": "pages/app.html",
+  "/auth/password-reset": "pages/auth/password-reset.html",
+  "/auth/password-reset/otp": "pages/auth/password-reset/otp.html",
+  "/settings": "pages/settings.html",
+  "/sign-up": "pages/sign-up.html",
+  "/auth": "pages/auth.html",
+  "/": "pages/index.html",
+  "/sign-up/otp": "pages/sign-up/otp.html",
+  "/stats": "pages/stats.html",
+  "/user-info": "pages/user-info.html",
+  "/user-info/done": "pages/user-info/done.html",
+  "/user-info/indiferencies": "pages/user-info/indiferencies.html",
+  "/user-info/preferences": "pages/user-info/preferences.html",
+  "/404": "pages/404.html"
+}

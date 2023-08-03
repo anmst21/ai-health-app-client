@@ -1,0 +1,18 @@
+.preference-selection {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.preference-container {
+  height: 100%;
+
+  // max-height: 100rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.margin-0 {
+  margin-bottom: 0;
+  margin-top: 1rem;
+}

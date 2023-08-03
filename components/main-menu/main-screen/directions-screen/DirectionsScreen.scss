@@ -1,0 +1,62 @@
+.directions-card {
+  display: flex;
+  min-width: 40rem;
+
+  padding-top: 12rem;
+  padding-bottom: 4rem;
+  height: 100%;
+  gap: 2rem;
+  flex-direction: column;
+
+  align-items: start;
+
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &__img {
+    border-radius: 2.5rem;
+    overflow: hidden;
+    min-height: 20rem;
+  }
+
+  &__h1 {
+    border-radius: 5rem;
+    background: rgba(255, 255, 255, 1);
+    font-size: 3.2rem;
+    border: 1px solid #57595a;
+    padding: 0.5rem 2rem;
+  }
+
+  &__p {
+    border-radius: 2.5rem;
+    background: rgba(255, 255, 255, 1);
+    padding: 2rem 2rem;
+    border: 1px solid #57595a;
+  }
+  &__fix {
+    align-items: start;
+  }
+  &__container {
+    height: 100%;
+
+    margin-top: 0;
+    overflow-x: auto !important;
+  }
+}
+
+.plan-card__content__text-fix {
+  height: auto;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+}
+.plan-card__container-fix {
+  height: auto;
+}
+.main-screen__cards--fix {
+  padding-top: 0;
+}

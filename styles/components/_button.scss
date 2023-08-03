@@ -1,0 +1,70 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    border: none;
+    height: 5rem;
+    border-radius: 7px;
+  }
+  &__blue {
+    background: #00f0ff;
+    transition: background 0.3s ease;
+    &:hover {
+      background: #00d6e3;
+    }
+    &:active {
+      background: #00b2bd;
+    }
+  }
+  &__red {
+    background: rgba(230, 34, 34, 0.79);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background 0.3s ease;
+    &:hover {
+      background: rgba(201, 30, 30, 0.79);
+    }
+    &:active {
+      background: rgba(166, 26, 26, 0.79);
+    }
+  }
+  &__tertiary {
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    background: none;
+    transition: background 0.3s ease;
+    &:hover {
+      background: rgba(0, 0, 0, 0.03);
+    }
+    &:active {
+      background: rgba(0, 0, 0, 0.07);
+    }
+  }
+
+  &__white {
+    border: none;
+    background: white;
+    transition: background 0.3s ease;
+    &:hover {
+      background: #f9f9f9;
+    }
+    &:active {
+      background: #f2f0f0;
+    }
+  }
+  &__green {
+    color: white;
+    border: none;
+    width: 30rem;
+    background: #1adb8a;
+    transition: background 0.3s ease;
+    &:hover {
+      background: #18d686;
+    }
+    &:active {
+      background: #13bd76;
+    }
+  }
+}

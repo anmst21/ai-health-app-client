@@ -1,0 +1,111 @@
+.schedule-form-container {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+
+  &__margin {
+    margin-top: 7rem;
+    width: 39.5rem;
+    justify-content: start;
+  }
+}
+
+.styled-input--heigth-fix {
+  height: 7.5rem;
+}
+
+.bg-img-wrap {
+  opacity: 70%;
+  margin-left: 7rem;
+}
+.bg-custom-file-upload {
+  cursor: pointer;
+  background: rgba(177, 178, 178, 0.19);
+  position: absolute;
+  width: 100%;
+  height: 40%;
+
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  &__error {
+    background-color: #db5051;
+  }
+}
+
+.btn-right-container {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  position: relative;
+}
+
+.btn-flipped {
+  &:hover {
+    padding-left: 0.3rem;
+  }
+
+  &:active {
+    padding-left: 0.6rem;
+  }
+  cursor: pointer;
+  border: none;
+  width: 10rem;
+
+  background: #00f0ff;
+  border-radius: 7px;
+  margin-top: 2rem;
+
+  transition: all 0.3s ease-out;
+  &:hover {
+    background: #00d6e3;
+  }
+  &:active {
+    background: #00b2bd;
+  }
+}
+.bg-text-container {
+  margin-bottom: 6rem;
+}
+
+.cccontainer {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 1rem;
+  position: absolute;
+  top: 100%;
+  margin-top: 1rem;
+}
+
+.bg-image-lg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &__component {
+    object-fit: cover;
+  }
+}
+
+.text-invet-color {
+  // or whatever color you want to invert
+  mix-blend-mode: difference; // inverts colors
+  color: #ffffff; // to make the text readable
+
+  &__item {
+    mix-blend-mode: normal;
+  }
+}
+
+.login-form__element--margin-fix {
+  margin-bottom: 0;
+}

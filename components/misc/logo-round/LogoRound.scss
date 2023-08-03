@@ -1,0 +1,21 @@
+.icon-round {
+  background-color: white;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  position: fixed;
+  top: 50px;
+  right: 50px;
+
+  &__directions {
+    position: relative;
+    top: 0;
+    right: 0;
+    z-index: 5;
+  }
+}

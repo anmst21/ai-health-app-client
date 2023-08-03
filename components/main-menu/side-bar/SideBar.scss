@@ -1,0 +1,38 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100rem;
+  width: 15rem;
+  position: relative;
+
+  gap: 3rem;
+  &__button {
+    border: none;
+    background: none;
+    width: 12rem;
+    height: 12rem;
+    transition: opacity 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &--active {
+      background: rgba(0, 0, 0, 0.05);
+      border-radius: 30px;
+    }
+    &:hover {
+      opacity: 0.8;
+    }
+    &:active {
+      opacity: 0.6;
+    }
+  }
+  &__line {
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    width: 50%;
+    opacity: 50%;
+  }
+}

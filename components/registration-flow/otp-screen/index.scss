@@ -1,0 +1,63 @@
+.otp-input {
+  width: 2.8rem;
+  height: 4rem;
+  margin-right: 0.7rem;
+  background: rgba(161, 249, 255, 0.21);
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  text-align: center;
+}
+.cell-container {
+  display: flex;
+  position: relative;
+  &__span {
+    position: absolute;
+    top: 105%;
+  }
+}
+.otp-container {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+  height: 14rem;
+  border-radius: 7px;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+}
+
+.nocode-link {
+  display: flex;
+  justify-content: center;
+}
+
+.otp-field {
+  &__timer {
+    font-size: 1.2rem;
+    &--button {
+      background: none;
+      color: inherit;
+      border: none;
+      padding: 0;
+      font: inherit;
+      cursor: pointer;
+      outline: inherit;
+    }
+    &--time {
+      font-weight: 600;
+      font-size: 1.4rem;
+      margin-left: 0.5rem;
+    }
+  }
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 15rem;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
