@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const API_URL =
   process.env.NODE_ENV === "production"
-    ? "https://your-heroku-url.com"
+    ? "https://health-app-server-d06f25728c61.herokuapp.com"
     : "http://localhost:4000";
 
 const nextConfig = {
