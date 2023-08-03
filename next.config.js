@@ -32,6 +32,11 @@ const nextConfig = {
         destination: `${API_URL}/auth/google`,
       },
       {
+        source: "/auth/google/callback",
+        destination: `${API_URL}/auth/google/callback`,
+      },
+
+      {
         source: "/auth/reset-password",
         destination: `${API_URL}/auth/reset-password`,
       },
