@@ -3,8 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/auth": "pages/auth.js",
-  "/app": "pages/app.js",
-  "/settings": "pages/settings.js",
-  "/user-info": "pages/user-info.js"
+  "/app": "pages/app.js"
 }
