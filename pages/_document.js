@@ -11,10 +11,9 @@ export default function Document() {
           />
           <title>Health App</title>
         </Head>
-        <div className="vh-fix">
-          <Main />
-          <NextScript />
-        </div>
+
+        <Main />
+        <NextScript />
       </body>
     </Html>
   );

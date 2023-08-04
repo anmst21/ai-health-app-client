@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  height: 100%;
   background: linear-gradient(168.21deg, #ffffff 0%, #65f6ff 99.77%);
 }
 
@@ -23,6 +23,6 @@
   position: relative;
 }
 
-.vh-fix {
-  height: 100vh; /* this makes the parent take the full height of the viewport */
+div#__next {
+  height: 100vh;
 }
