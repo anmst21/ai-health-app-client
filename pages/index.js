@@ -9,3 +9,4 @@ export default function Home() {
     </div>
   );
 }
+// react-circular-menu react-icons react-select react-spring redux-form styled-components

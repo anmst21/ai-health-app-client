@@ -1,4 +1,3 @@
-import AsyncSelect from "react-select/async";
 import { useState } from "react";
 import Image from "next/image";
 import classNames from "classnames";
