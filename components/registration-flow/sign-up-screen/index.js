@@ -30,7 +30,6 @@ const SignUpScreen = () => {
 
   const onSubmit = async (data, e) => {
     e.preventDefault();
-    console.log(data);
 
     try {
       const response = await registerUser({

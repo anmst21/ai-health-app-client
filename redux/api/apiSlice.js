@@ -5,11 +5,14 @@ export const apiSlice = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: "/auth" }),
   endpoints: (builder) => ({
     register: builder.mutation({
-      query: (credentials) => ({
-        url: "/register",
-        method: "POST",
-        body: credentials,
-      }),
+      query: (credentials) => (
+        console.log(credentials),
+        {
+          url: "/register",
+          method: "POST",
+          body: credentials,
+        }
+      ),
     }),
     newOtp: builder.mutation({
       query: (credentials) => ({
